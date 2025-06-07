@@ -14,9 +14,10 @@
         "tab": "About",
         "pages": [
           "about/index",
-          "about/patch",
+          "about/client",
           "about/token",
-          "about/economics"
+          "about/economics",
+          "about/contracts"
         ]
       },
       {

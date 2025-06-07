@@ -1,0 +1,32 @@
+---
+title: The Paladin Solana Client
+sidebarTitle: "Paladin Solana Client"
+description: "The Paladin client includes a pretty simple patch on top of the Jito client."
+"twitter:image": "/images/hero-light.svg"
+---
+
+<img
+  className="block dark:hidden"
+  src="/images/hero-light.svg"
+  alt="Hero Light"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/hero-dark.svg"
+  alt="Hero Dark"
+/>
+
+## Technical Overview
+
+For validators, onboarding to Paladin is designed to be seamless and include minimal software risk. On the validator side, Paladin is just a small patch (~1500 LOC) on top of the existing Jito client. The Paladin client is updated as new versions of the Jito client are released, the same way the Jito client is updated as new versions of the Agave client are released.
+
+Paladin is:
+
+* Compatible with Jito by default, without affecting how Jito works.
+* Open source and easy to find on [Github](https://github.com/paladin-bladesmith/paladin-solana).
+* Audited by [Zenith](http://zenith.security/), a sister company to long-standing and reputable security firm [Zellic](https://www.zellic.io/).
+
+It has always been our intention that Paladin is easy for validators to understand quickly -- we're very conscious that running a Solana validator client means managing a mission-critical operation. If you're a validator, getting Paladin up and running within your existing devops should also be seamless -- exactly like running a Jito client. You can find an expanded validator onboarding guide [here](/validators).
+
+## Architecture
+
