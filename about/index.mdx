@@ -1,0 +1,55 @@
+---
+title: Introduction
+sidebarTitle: "About Paladin"
+description: "Paladin is an economic framework that mitigates sandwiching on Solana while helping validators earn more and transaction senders land better."
+"twitter:image": "/images/hero-light.svg"
+---
+
+<img
+  className="block dark:hidden"
+  src="/images/hero-light.svg"
+  alt="Hero Light"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/hero-dark.svg"
+  alt="Hero Dark"
+/>
+
+## The Premise
+
+Solana is the world's most performant blockchain. It got to its reputed position, in large part, because of its developer community's relentless focus on self-critiquing opportunities for the network to improve its infrastructure and pushing that development through. Through those chapters, it's resolved Solana into an excpetionally robust blockchain network that powers an increasingly growing amount of global internet traffic.
+
+**Paladin is an effort to continue refining Solana's infrastructure.** It centers around three points of focus:
+
+1. **Sandwich mitigation:** Sandwiching on the network is a difficult problem perpetuated by sophisticated actors, and hurts everybody. [To this day](https://sandwiched.me), millions of dollars a month are lost to sandwiching attacks. It's difficult to understand which validators are honest (not intentionally perpetuating sandwiches), and which validators are dishonest (taking part in sandwiching or sandwich-related deals, like exposing private mempools). Malicious actors leverage strategies like rotating validator nodes and leveraging borrowed stake to mitigate censorship.
+
+2. **Fee markets:** Fee markets bring multiple benefits to blockchain networks, helping both transaction senders and validators. Transaction senders can tangibly specify transaction priority from their side, while validators can prioritize transaction processing based on priority (especially valuable in times of high network traffic) and earn true market rates for their work.
+
+3. **Decentralization:** Blockchain networks are designed to be decentralized. While decentralization is and always will be a spectrum, decentralizing approaches at the infrastructure level should be preferred over centralizing ones.
+
+----
+
+With these in mind, **there are two main components to Paladin**:
+
+* The Paladin patch to the Solana Agave validator client (and soon, the Solana Firedancer client)
+* The **$PAL** token, which makes Paladin's economically viable incentive system possible.
+
+Both are expanded upon in the next sections.
+
+<CardGroup cols={2}>
+  <Card
+      title="Get Started: Validators"
+      icon="code"
+      href="/validators"
+  >
+    Running a Solana Paladin node is just like running Agave or Jito.
+  </Card>
+  <Card
+      title="Get Started: Transaction Senders"
+      icon="code"
+      href="/transaction-senders"
+  >
+    Priority transaction sending to Paladin ports is in early beta.
+  </Card>
+</CardGroup>
